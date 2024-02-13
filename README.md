@@ -1,4 +1,5 @@
 Food App Project
+
 Project Overview
 The Food App is a web application designed for users to explore and discover Recipe across various categories. It offers a user-friendly interface with features such as Recipe details display and user authentication functionalities.
 
