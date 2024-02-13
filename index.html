@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <div class="upperPortion">
+            <div class="item">
+                <div class="header" style="margin-right: 25px;">
+                    <img src="./logomact.svg" alt="logo">
+                </div>
+            </div>
+            <a class="item" id="home" >
+                home
+            </a>
+            <a class="item" href="search.html" onclick="func()" >
+                
+                    Recipes
+                
+            </a>
+        </div>
+        <div class="big-image" >
+            <img id="image" src="./frontImage.jpeg" alt="logo">
+            <div class="text-content">
+                <h1 class="header-title">Amazing Recipes</h1>
+                <a class="ui-linkedin-big-button" role="button" onclick="func()">SEARCH RECIPES</a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function func(){
+            window.location.assign("search.html")
+        }
+        
+
+        
+    </script>
+</body>
+</html>

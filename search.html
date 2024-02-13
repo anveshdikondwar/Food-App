@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <div class="root">
+        <div class="upperPortion">
+            <div class="item">
+                <div class="header" style="margin-right: 25px;">
+                    <img src="./logomact.svg" alt="logo">
+                </div>
+            </div>
+            <a class="item" href="index.html" onclick="funct()">
+                
+                    home
+                
+            </a>
+            <a class="item" id="recipe">
+                Recipes
+            </a>
+        </div>
+        <div class="main">
+             <div class="column">
+                 <h2 class="search-heading">
+                    Search Recipe With
+                    <span style="color: brown;"" id="fork">Food2Fork</span>
+                 </h2>
+                 <h4 id="type">Type Recipes Separated By Comma</h4>
+                 <form>
+                    <input type="text" id="search-input" placeholder="Chicken,onion,carrots" />
+                    <button id="search-button">🔎</button>
+                 </form>
+             </div>
+        </div>     
+             <div class="last-container">
+                <div class="last-cont" >RECIPE LIST FOR:</div>
+
+                <div class="result" >
+                    <!-- <p class="loading"></p> -->
+                </div>
+            </div>
+        
+        
+    </div>    
+<script>
+    function funct(){
+        window.location.assign("index.html")
+    }
+</script>
+<script src="search.js"></script>
+    
+    
+</body>
+</html>
